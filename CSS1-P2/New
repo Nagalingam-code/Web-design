@@ -1,0 +1,66 @@
+Layout Creation:
+
+<!doctype html>
+<html>
+    <head>
+        <title>Layout</title>
+        <style>
+            #d
+            {
+                border:4px solid black;
+                width:800px;
+                height:850px;
+                margin-left:250px;
+                background-color:#afc4e0;
+            }
+            #h,#n,#m,#h2,#f
+            {
+                border:2px solid #aeb1b5;
+                margin-top:30px;
+                margin-left:40px;
+                margin-right:40px;
+                background-color:#aeb1b5;
+            }
+            #n,#m,#f
+            {
+                margin-top:5px;
+                text-align:center;
+            }
+            #m
+            {
+                padding:30px;
+            }
+            #d2
+            {
+                display:grid;
+                grid-template-columns: 30% 70%;
+            }
+            #h2
+            {
+                padding-top:100px;
+                text-align:center;
+                height:200px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="d">
+            <header id="h">
+                <h1>Logo</h1>
+            </header>
+            <nav id="n">
+                <h1>nav</h1>
+            </nav>
+            <main id="m">
+                <h1>header/banner</h1>
+            </main>
+            <div id="d2">
+                <h1 id="h2" style="margin-right:0px;">Side Bar</h1>
+                <h1 id="h2">Body Area</h1>
+            </div>
+            <footer id="f">
+                <h1>Footer</h1>
+            </footer>
+        </div>
+    </body>
+</html>
